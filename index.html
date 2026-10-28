@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101010">
+<title>YASHARGK_GAMER — Creator Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#101010;--panel:#181818;--panel2:#202020;--text:#f5f5f5;--muted:#a5a5a5;--line:#303030;--accent:#ff3c48}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.8}a{color:inherit;text-decoration:none}button{font:inherit}
+.shell{width:min(1100px,92%);margin:auto}.topbar{position:sticky;top:0;z-index:20;background:#101010e8;backdrop-filter:blur(15px);border-bottom:1px solid #ffffff10}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}.logo{display:flex;align-items:center;gap:10px;font-weight:900;direction:ltr}.logo-mark{width:39px;height:39px;border-radius:12px;background:var(--accent);display:grid;place-items:center;box-shadow:0 5px 22px #ff3c4833}.logo small{display:block;color:#aaa;font-size:9px;letter-spacing:2px;font-weight:600}.links{display:flex;align-items:center;gap:22px;color:#c5c5c5;font-size:12px}.links a:hover,.links a.active{color:#fff}.navbtn{border:1px solid #ffffff20;border-radius:10px;padding:8px 13px;font-size:12px}.navbtn:hover{border-color:var(--accent)}
+main{padding-bottom:60px}.hero{padding:66px 0 42px}.hero-card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:24px;background:radial-gradient(ellipse at 10% 10%,#ff3c481b,transparent 42%),linear-gradient(135deg,#1c1c1c,#131313 65%);padding:clamp(25px,5vw,58px);min-height:360px;display:grid;grid-template-columns:1fr .7fr;gap:30px;align-items:center}.hero-card:after{content:"GK";position:absolute;left:-10px;bottom:-105px;font-size:clamp(190px,30vw,350px);font-weight:900;line-height:1;color:#ffffff06;direction:ltr;pointer-events:none}.profile{position:relative;z-index:1}.pill{display:inline-flex;gap:8px;align-items:center;padding:5px 11px;border:1px solid #ffffff20;background:#ffffff08;border-radius:999px;font-size:11px;color:#ddd}.dot{width:7px;height:7px;background:#71db9b;border-radius:50%;box-shadow:0 0 10px #71db9b80}.hero h1{font-size:clamp(34px,5vw,58px);line-height:1.22;margin:17px 0 12px;font-weight:900;letter-spacing:-1px}.hero h1 span{color:var(--accent)}.hero p{color:#b7b7b7;font-size:14px;max-width:500px;margin:0 0 22px}.btns{display:flex;gap:10px;flex-wrap:wrap}.btn{padding:11px 16px;border-radius:10px;font-size:12px;font-weight:700;border:1px solid #ffffff20;transition:.25s;display:inline-flex;align-items:center;gap:8px}.btn:hover{transform:translateY(-3px)}.primary{background:var(--accent);border-color:var(--accent)}.avatar-wrap{display:grid;place-items:center;position:relative;z-index:1}.avatar{width:min(230px,60vw);aspect-ratio:1;border-radius:30%;border:1px solid #ffffff20;background:linear-gradient(145deg,#303030,#141414);display:grid;place-items:center;transform:rotate(4deg);box-shadow:0 24px 70px #0008,inset 0 0 35px #ff3c4814}.avatar span{font-size:clamp(72px,10vw,105px);font-weight:900;direction:ltr;text-shadow:5px 5px 0 var(--accent)}.avatar-note{position:absolute;bottom:2%;right:2%;background:#222;border:1px solid #ffffff20;padding:8px 12px;border-radius:10px;font-size:10px;transform:rotate(-3deg)}
+.socials{display:flex;gap:9px;flex-wrap:wrap;margin-top:17px}.social{font-size:11px;color:#ccc;padding:6px 10px;border:1px solid #ffffff17;border-radius:8px}.social:hover{color:white;border-color:var(--accent)}
+.section{padding:34px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:20px}.section-head h2{margin:0;font-size:25px}.section-head p{color:var(--muted);font-size:11px;margin:0}.label{font-size:10px;color:var(--accent);letter-spacing:2px;direction:ltr}
+.video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.video{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--panel);transition:.25s}.video:hover{transform:translateY(-5px);border-color:#ff3c4866}.cover{aspect-ratio:16/9;position:relative;display:grid;place-items:center;background:radial-gradient(circle at 70% 25%,#69202a,#251316 52%,#111)}.cover:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent 0 19px,#ffffff05 20px 21px)}.play{width:45px;height:45px;border-radius:50%;display:grid;place-items:center;background:var(--accent);position:relative;box-shadow:0 0 25px #ff3c4855}.play:after{content:"";border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:11px solid white;margin-left:4px}.cover small{position:absolute;top:10px;right:10px;background:#080808b8;border:1px solid #ffffff20;padding:3px 8px;border-radius:6px;font-size:9px}.vbody{padding:14px}.vbody h3{font-size:13px;margin:0 0 5px}.vbody p{font-size:11px;color:var(--muted);margin:0}.vmeta{display:flex;justify-content:space-between;margin-top:12px;color:#888;font-size:9px}.vmeta span:first-child{color:#ff858b}
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.feature{border:1px solid var(--line);background:#151515;border-radius:14px;padding:18px}.feature b{display:block;font-size:13px;margin:8px 0 3px}.feature p{font-size:11px;color:var(--muted);margin:0}.icon{width:34px;height:34px;border-radius:10px;background:#ff3c4818;border:1px solid #ff3c4833;display:grid;place-items:center;color:#ff7b82;font-size:16px}
+.about{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center;padding:25px;border:1px solid var(--line);background:linear-gradient(110deg,#191919,#131313);border-radius:18px}.about h2{margin:0 0 7px;font-size:21px}.about p{color:#aaa;font-size:12px;margin:0;max-width:650px}
+footer{border-top:1px solid #ffffff12;color:#777;font-size:10px;padding:23px 0}.foot{display:flex;justify-content:space-between;gap:15px;align-items:center}.foot strong{color:#eee;direction:ltr}
+.reveal{opacity:0;transform:translateY(16px);transition:.65s}.reveal.show{opacity:1;transform:none}
+@media(max-width:760px){.links{gap:12px}.hero-card{grid-template-columns:1fr;text-align:center}.hero p{margin-inline:auto}.btns,.socials{justify-content:center}.avatar-wrap{min-height:220px}.avatar{width:185px}.video-grid{grid-template-columns:repeat(2,1fr)}.section-head{align-items:start;flex-direction:column}.about{grid-template-columns:1fr}.about .btn{justify-self:start}}
+@media(max-width:500px){.nav{height:64px}.links{display:none}.logo{font-size:12px}.navbtn{font-size:10px}.hero{padding-top:28px}.hero-card{padding:25px 18px;gap:15px}.hero h1{font-size:36px}.hero p{font-size:12px}.video-grid,.feature-grid{grid-template-columns:1fr}.section{padding:25px 0}.section-head h2{font-size:22px}.foot{flex-direction:column;text-align:center}.avatar-wrap{min-height:200px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="shell nav">
+<a class="logo" href="#home"><span class="logo-mark">GK</span><span>YASHARGK_GAMER<small>CREATOR HUB</small></span></a>
+<nav class="links"><a href="#home">خانه</a><a href="#videos">ویدیوهای من</a><a href="#social">شبکه‌های اجتماعی</a><a href="#about">درباره من</a></nav>
+<a class="navbtn" href="#videos">ویدیوها ↙</a>
+</div></header>
+<main class="shell">
+<section class="hero" id="home"><div class="hero-card">
+<div class="profile"><span class="pill"><i class="dot"></i> دنیای گیمینگ و سرگرمی</span>
+<h1>سلام، من <span>YASHARGK</span> هستم!</h1>
+<p>به خونه‌ی اینترنتی من خوش اومدی؛ اینجا می‌تونی ویدیوهای گیمینگ، لحظه‌های بامزه و ماجراجویی‌های کانالم رو پیدا کنی. یه چیزی برای دیدن پیدا کن و بزن بریم!</p>
+<div class="btns"><a class="btn primary" href="https://www.aparat.com/YASHARGK_GAMER" target="_blank" rel="noopener">▶ کانال آپارات من</a><a class="btn" href="#social">لینک‌هامو ببین ↗</a></div>
+<div class="socials" id="social"><a class="social" href="https://www.aparat.com/YASHARGK_GAMER" target="_blank" rel="noopener">آپارات</a><a class="social" href="https://rubika.ir/yashargk" target="_blank" rel="noopener">روبیکا</a><a class="social" href="#videos">ویدیوها</a></div>
+</div>
+<div class="avatar-wrap"><div class="avatar"><span>GK</span></div><div class="avatar-note">🎮 PLAYER 1 — READY</div></div>
+</div></section>
+
+<section class="section reveal" id="videos"><div class="section-head"><div><div class="label">LATEST UPLOADS</div><h2>۳ ویدیوی آخر من</h2></div><p id="video-status">در حال تلاش برای دریافت ویدیوهای جدید کانال…</p></div>
+<div class="video-grid" id="latest-videos" aria-live="polite"><div class="feature" style="grid-column:1/-1"><b>دارم ویدیوها رو پیدا می‌کنم…</b><p>اگر دریافت خودکار آپارات در مرورگر پشتیبانی نشه، لینک کانال در دسترسه.</p></div></div>
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px"><button class="btn" id="refresh-videos" type="button">↻ بررسی دوباره</button><a class="btn primary" href="https://www.aparat.com/YASHARGK_GAMER" target="_blank" rel="noopener">دیدن همهٔ ویدیوها در آپارات ↗</a></div></section>
+
+<section class="section reveal"><div class="section-head"><div><div class="label">WHAT'S HERE</div><h2>توی این سایت چی پیدا می‌کنی؟</h2></div></div>
+<div class="feature-grid"><div class="feature"><div class="icon">▶</div><b>ویدیوهای من</b><p>همه‌ی ویدیوهای منتخب کانال در یک‌جا.</p></div><div class="feature"><div class="icon">↗</div><b>لینک‌های من</b><p>دسترسی سریع به آپارات و صفحه‌های اجتماعی.</p></div><div class="feature"><div class="icon">✦</div><b>درباره کانال</b><p>یه معرفی کوتاه از محتوا و دنیای YASHARGK_GAMER.</p></div></div>
+</section>
+<section class="section reveal" id="about"><div class="about"><div><div class="label">ABOUT ME</div><h2>بازی، سرگرمی و کلی لحظه‌ی باحال!</h2><p>من YASHARGK_GAMER هستم. این سایت جاییه برای جمع شدن ویدیوها و لینک‌های من. به‌زودی می‌تونم بخش‌های بیشتری اضافه کنم و ظاهرش رو با سلیقه‌ی خودم کامل‌تر کنم.</p></div><a class="btn primary" href="https://www.aparat.com/YASHARGK_GAMER" target="_blank" rel="noopener">بیا آپارات ↗</a></div></section>
+</main>
+<footer><div class="shell foot"><span>ساخته‌شده با ❤️ برای کامیونیتی گیمینگ</span><strong>© <span id="year"></span> YASHARGK_GAMER</strong><span>نسخه‌ی اولیه — قابل توسعه</span></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');obs.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+// Best-effort loader for the latest three Aparat uploads. Aparat may block browser
+// requests (CORS) or change its unofficial endpoint, so never invent video cards.
+const channelUrl = 'https://www.aparat.com/YASHARGK_GAMER';
+const videosBox = document.getElementById('latest-videos');
+const videoStatus = document.getElementById('video-status');
+const refreshButton = document.getElementById('refresh-videos');
+function esc(v=''){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function fallback(msg){videoStatus.textContent=msg;videosBox.innerHTML=`<div class="feature" style="grid-column:1/-1"><div class="icon">↗</div><b>برای دیدن ویدیوهای واقعی وارد کانال شو</b><p>دریافت خودکار فعلاً از این مرورگر ممکن نشد؛ برای جلوگیری از نمایش کاور یا لینک اشتباه، ویدیوی ساختگی نشان نمی‌دهیم.</p><p style="margin-top:10px"><a class="btn primary" href="${channelUrl}" target="_blank" rel="noopener">رفتن به کانال واقعی ↗</a></p></div>`;}
+function listFrom(d){if(Array.isArray(d))return d;if(!d||typeof d!=='object')return[];for(const k of ['videos','video','data','items'])if(Array.isArray(d[k]))return d[k];for(const v of Object.values(d))if(Array.isArray(v)&&v.length&&typeof v[0]==='object')return v;return[];}
+function field(v,keys){for(const k of keys){const x=k.split('.').reduce((a,b)=>a&&a[b],v);if(typeof x==='string'&&x.trim())return x;}return '';}
+function render(list){const cards=list.slice(0,3).map(v=>{const title=field(v,['title','name','attributes.title'])||'ویدیوی YASHARGK_GAMER';const url=field(v,['url','link','video_url','attributes.url','attributes.link']);const img=field(v,['thumbnail','thumbnail_url','image','cover','attributes.thumbnail','attributes.cover']);if(!/^https?:\/\//i.test(url))return '';return `<a class="video" href="${esc(url)}" target="_blank" rel="noopener"><div class="cover" style="${/^https?:\/\//i.test(img)?`background:#111 url('${esc(img)}') center/cover no-repeat`:''}">${img?'':'<span class="play"></span>'}<small>ویدیوی کانال</small></div><div class="vbody"><h3>${esc(title)}</h3><p>از کانال YASHARGK_GAMER</p><div class="vmeta"><span>▶ تماشای ویدیو</span><span>آپارات</span></div></div></a>`;}).filter(Boolean);if(!cards.length)return false;videosBox.innerHTML=cards.join('');videoStatus.textContent='ویدیوهای دریافت‌شده از کانال';return true;}
+async function loadLatest(){refreshButton.disabled=true;refreshButton.textContent='در حال بررسی…';videoStatus.textContent='در حال بررسی کانال آپارات…';try{const r=await fetch('https://www.aparat.com/api/fa/v1/video/video/list?username=YASHARGK_GAMER',{headers:{Accept:'application/json'}});if(!r.ok)throw new Error('API unavailable');if(!render(listFrom(await r.json())))throw new Error('No video list');}catch(e){fallback('دریافت خودکار فعلاً در دسترس نیست؛ لینک کانال آماده است.');}finally{refreshButton.disabled=false;refreshButton.textContent='↻ بررسی دوباره';}}
+refreshButton.addEventListener('click',loadLatest);loadLatest();
+</script>
+</body></html>
